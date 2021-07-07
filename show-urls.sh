@@ -4,6 +4,6 @@
 
 echo The microservices are running
 echo You can visit these URLS
-echo http://localhost:8081/swagger-ui.html - Customer service
-echo http:/localhost:8083/swagger-ui.html - Order Service
-echo http://localhost:8082/swagger-ui.html - Order History Service
+echo http://localhost:8081/swagger-ui/ - Customer service
+echo http://localhost:8083/swagger-ui/ - Order Service
+echo http://localhost:8082/swagger-ui/ - Order History Service
