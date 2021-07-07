@@ -1,8 +1,9 @@
 #! /bin/bash -e
 
+root="$(dirname "$0")"
 localhost=${DOCKER_HOST_IP:localhost}
 
-./wait-for-services.sh ${localhost} actuator/health 8081 8082 8083
+"$root"/wait-for-services.sh ${localhost} actuator/health 8081 8082 8083
 
 echo The microservices are running
 echo You can visit these URLS
